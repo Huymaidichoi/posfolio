@@ -1,0 +1,148 @@
+
+.Tong_from{
+    width: 780px;
+    background: royalblue;
+  margin-left: 500px;
+}
+.anhtop ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+/* __________________________________MENU___________________________ */
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    background: blue;
+    padding-left: 0px;
+
+}
+.menu ul li{
+    border-right: 1px black solid;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/* __________________________________trangduoi___________________________ */
+
+.trangtrai ul{
+    padding-left: 0px;
+}
+.trangtrai ul li{
+    list-style-type: none;
+
+}
+.tongduoi{
+    display: flex;
+}
+.tranggiua{
+    background: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+.trangphai ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.tranggiua ul{
+    display: flex;
+    list-style-type: none;
+}
+.tranggiua ul{
+    flex: 33%;
+}
+.tranggiua ul li a{
+    text-decoration: none;
+}
+.chuthunhat_anhgiuaduoi{
+    color:aquamarine;
+}
+.chuthuhai_anhgiuaduoi{
+    color: black;
+}
+.cndn a{
+color: rgb(5, 94, 94);
+}
+/* .ca_bor{
+    
+} */
+/* __________________________________MENU Hover___________________________ */
+.menu ul li:hover a{
+    color: #ff0;
+    text-decoration: underline;
+}
+/* __________________________________index___________________________ */
+.index{
+    background-color: #fff;
+}
+.Toong_index{
+    display: block;
+}
+.anhdauu_index ul{
+    display: flex;
+    padding: 0px 10px;
+    list-style-type: none;
+}
+.tonggiua_index{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.vanban_index{
+    padding-left: 10px;
+}
+#bt_index{
+   font-weight: bold;
+}
+/* __________________________________dang ky___________________________ */
+.dangky{
+    background-color: #fff;
+}
+#dk_dk{
+    font-weight: 900;
+    font-size: 20px;
+}
+#tieude_dk{
+    background-color: aqua;
+    padding-right: 350px;
+}
+.tong_dk{
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.phantrai_dk{
+    display: flex;
+}
+.phantrai_dk .dau_dk{
+    flex: 30%;
+}
+.phantrai_dk .benphai_dk{
+    flex: 70%;
+}
+#chunho_dk{
+    font-size: 12px;
+    font-style: oblique;
+}
+.dau_dk p{
+    padding-bottom: 36px;
+}
+ul input{
+    margin-bottom: 5px;
+}
+.muigio_dkn{
+    padding-top: 10px;
+}
+.button_dk{
+    padding-left: 280px;
+}
+#bailam_dk{
+    width: 470px;
+}
